@@ -94,6 +94,7 @@ onMounted(getWeather);
 .sections
   display: flex
   width: 100%
+  justify-content: space-between
 
   @media (max-width: 767px)
     flex-direction: column
@@ -155,7 +156,7 @@ onMounted(getWeather);
   cursor: pointer
 
 .section-bottom
-  width: 50%
+  width: 49%
   margin-top: 16px
 
   @media (max-width: 767px)
